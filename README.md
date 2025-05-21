@@ -9,14 +9,14 @@ Elasticsearch
 Logstash 
 The Tree structure looks like root
 t2s-stack
-  . Certs
+  1. Certs
     . Kibana.crt
     . Kibana.key
-  . docker-compose.yml
-  . Kibana
+  2. docker-compose.yml
+  3. Kibana
     . kibana -kibana.yml
-  . logstash
+  4. logstash
     . pipeline
       . logstash.conf
-  . Elasticsearch
+  5. Elasticsearch
     . elasticsearch.yml
