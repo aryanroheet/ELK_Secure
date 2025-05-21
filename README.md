@@ -6,12 +6,17 @@ create directory t2s-stack under root directory Download docker-compose.yml file
 
 Kibana
 Elasticsearch
-Logstash The Tree structure looks like root
+Logstash 
+The Tree structure looks like root
 t2s-stack
-docker-compose.yml
-kibana -kibana.yml
-logstash
-pipeline
-logstash.conf
-elasticsearch
-elasticsearch.yml
+  . Certs
+    . Kibana.crt
+    . Kibana.key
+  . docker-compose.yml
+  . Kibana
+    . kibana -kibana.yml
+  . logstash
+    . pipeline
+      . logstash.conf
+  . Elasticsearch
+    . elasticsearch.yml
